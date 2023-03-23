@@ -10,12 +10,10 @@
 
 .header {
   display: flex;
-  flex-direction: row;
   align-items: flex-start;
-  flex-wrap: wrap-reverse;
   justify-content: space-between;
-  width: 345px;
-  margin-right: auto;
+  width: 95%;
+  margin: 0 auto;
   height: 48px;
 }
 
@@ -24,13 +22,19 @@
   width: 76px;
   left: 12px;
   top: 10px;
+  margin-top: 15px;
+}
+
+.button {
+  margin-top: 15px;
+  background-color: #fff;
+  border: none;
 }
 
 .main {
   background-image: url(./vectors/header-shapes\ mobile.png);
   background-repeat: no-repeat;
-  background-size: auto;
-  width: 85%;
+  background-size: 100%;
 }
 
 .color-blue {
@@ -45,12 +49,8 @@
   color: #172b4d;
 }
 
-.color-dark-grey {
+.p-headline {
   text-align: justify;
-  height: 146px;
-  width: 327px;
-  font-family: 'Poppins', sans-serif;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
@@ -58,10 +58,9 @@
   padding-top: 20px;
 }
 
-.color-purple {
+.linkheadline {
   text-align: justify;
   color: #7f8cff;
-  font-family: 'Inter', sans-serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 28px;
@@ -74,17 +73,18 @@
   font-size: 20px;
   line-height: 130%;
   text-align: center;
-  margin: 0 auto;
   padding-top: 126px;
-  padding-bottom: 5%;
+  margin: 0 8%;
 }
 
 .social-icons-set {
   list-style: none;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: nowrap;
+  justify-content: flex-start;
   margin: 0 auto;
   padding-top: 20px;
+}
+
+.social-icons-set img {
+  margin: 0 9px;
 }
