@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fonts {
+  font-family: 'Poppins', sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 95%;
+  margin: 0 auto;
+  height: 48px;
+}
+
+.my-logo {
+  height: 20px;
+  width: 76px;
+  left: 12px;
+  top: 10px;
+  margin-top: 15px;
+}
+
+.button {
+  margin-top: 15px;
+  background-color: #fff;
+  border: none;
+}
+
+.main {
+  background-image: url(./vectors/header-shapes\ mobile.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.color-blue {
+  text-align: justify;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 130%;
+  display: flex;
+  flex-wrap: nowrap;
+  color: #172b4d;
+}
+
+.p-headline {
+  text-align: justify;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  padding-top: 20px;
+}
+
+.linkheadline {
+  text-align: justify;
+  color: #7f8cff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-right: auto;
+  padding-top: 30px;
+}
+
+.headline {
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  line-height: 130%;
+  text-align: center;
+  padding-top: 126px;
+  margin: 0 8%;
+}
+
+.social-icons-set {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.social-icons-set img {
+  margin: 0 9px;
+}
