@@ -1,13 +1,12 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.fonts{
-    font-family: 'Poppins', sans-serif;
+.fonts {
+  font-family: 'Poppins', sans-serif;
 }
-
 
 .header {
   display: flex;
@@ -15,9 +14,8 @@
   align-items: flex-start;
   flex-wrap: wrap-reverse;
   justify-content: space-between;
-  width: 345px; 
+  width: 345px;
   margin-right: auto;
-  
   height: 48px;
 }
 
@@ -26,7 +24,6 @@
   width: 76px;
   left: 12px;
   top: 10px;
-  
 }
 
 .main {
@@ -34,42 +31,31 @@
   background-repeat: no-repeat;
   background-size: auto;
   width: 85%;
-  
- 
-  
-  
 }
 
 .color-blue {
-    text-align: justify; 
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 130%;
-    display: flex;
-    flex-wrap: nowrap;  
-    color: #172B4D;
-    
-
+  text-align: justify;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 130%;
+  display: flex;
+  flex-wrap: nowrap;
+  color: #172b4d;
 }
 
 .color-dark-grey {
-
-    text-align: justify;
-    height: 146px;
-width: 327px;
-
-
-    
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #344563;
-    padding-top: 20px;
-    
+  text-align: justify;
+  height: 146px;
+  width: 327px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  padding-top: 20px;
 }
 
 .color-purple {
@@ -83,8 +69,6 @@ width: 327px;
   padding-top: 30px;
 }
 
-
-
 .headline {
   font-family: 'Inter', sans-serif;
   font-size: 20px;
@@ -92,21 +76,15 @@ width: 327px;
   text-align: center;
   margin: 0 auto;
   padding-top: 126px;
-  
   padding-bottom: 5%;
-  
-  
 }
 
 .social-icons-set {
-list-style: none;
-display: flex;
-flex-direction: row;
-justify-content: space-between;
-flex-wrap: nowrap;
-margin: 0 auto;
-padding-top: 20px;
-
-    
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+  padding-top: 20px;
 }
-
