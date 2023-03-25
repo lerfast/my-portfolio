@@ -24,7 +24,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
 
-  <img src="./luis-logo.png" alt="logo" width="140"  height="auto" />
+  <img src="./vectors/luis-logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>My new Blog</b></h3>
@@ -69,8 +69,6 @@ After you're finished please remove all the comments and instructions!
 
 ### Tech Stack <a name="tech-stack"></a>
 
-
-
 <details>
   <summary>Client</summary>
   <ul>
@@ -79,14 +77,9 @@ After you're finished please remove all the comments and instructions!
   </ul>
 </details>
 
-
-
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
-
 
 -Added index.html file.
 -Added style.css file.
@@ -137,7 +130,6 @@ Run command:
   npm install
 ```
 
-
 ### Usage
 
 To run the project, execute the following command:
@@ -146,13 +138,11 @@ Open index.html using live server extension.
 
 ### Run tests
 
- Comming soon!!!
+Comming soon!!!
 
 ### Deployment
 
-
 Comming soon!!!
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -160,23 +150,17 @@ Comming soon!!!
 
 ## 👥 Authors <a name="authors"></a>
 
-
-
 👤 Luis Emilio Rojas
 
 - GitHub: [@githubhandle](https://github.com/lerfast)
 - Twitter: [@twitterhandle](https://twitter.com/lerfast)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/luis-emilio-rojas-rojas-6ba90a8a/)
 
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-
 
 - [ ] Add Header.
 - [ ] Add more styles.
@@ -197,8 +181,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-
-If you like this project just give it a star ⭐ 
+If you like this project just give it a star ⭐
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -206,20 +189,14 @@ If you like this project just give it a star ⭐
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-
-
 I would like to thank Microverse.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
