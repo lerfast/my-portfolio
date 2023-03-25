@@ -12,7 +12,7 @@
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  width: 95%;
+  width: 85%;
   margin: 0 auto;
   height: 48px;
 }
@@ -80,8 +80,6 @@
 .headline {
   font-family: 'Inter', sans-serif;
   font-size: 20px;
-  line-height: 130%;
-  text-align: center;
   padding-top: 126px;
   margin: 0 8%;
 }
@@ -115,6 +113,7 @@
   gap: 24px;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
+  width: 349px;
 }
 
 .card-container {
