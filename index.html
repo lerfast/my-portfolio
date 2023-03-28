@@ -275,17 +275,47 @@
 
     <div class="divisor">
     </div>
+
+    <section id="form-section">
+      <div id="contact-container">
+        <div>
+          <h2 class="white">Contact me</h2>
+          <p class="white">If you have an application you are interested in developing, a feature that you need built or
+            a project that needs coding.
+            I’d love to help with it! </p>
+        </div>
+        <form class="form2" id="form" action="https://formspree.io/f/mqkoqdwg" method="POST">
+
+
+          <ul id="contactInGrid">
+            <li>
+              <div class="input-div">
+                <input type="text" name="name" maxlength="30" required="true" placeholder="Your Name" />
+              </div>
+            </li>
+            <li>
+              <div class="input-div">
+                <input id="mail" type="email" name="email" required="true" placeholder="Your email Address" />
+              </div>
+            </li>
+          </ul>
+          </li>
+
+          <div id="maxText" class="input-div">
+            <textarea name="message" required="true" id="message" maxlength="500"
+              placeholder="Write your message here..." rows="10"></textarea>
+          </div>
+          </li>
+
+
+        </form>
+        <button type="button" class="see-btn">Get in touch</button>
+      </div>
+    </section>
   </div>
   </div>
   <section>
-    <form action="">
-      <label for="name">
-        <input type="text" id="name" name="user-name" maxlength="30" required>
-      </label>
-      <label for="email">
-        <input type="email" id="email" name="user-email" maxlength="50" required>
-      </label>
-    </form>
+
   </section>
 
 </body>
