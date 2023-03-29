@@ -82,6 +82,10 @@
   background-image: url(./vectors/header-shapes\ mobile2.png);
   background-repeat: no-repeat;
   background-size: 100%;
+  background-color: #ffff;
+  border: 1px solid #ffff;
+  border-bottom-left-radius: 33px;
+  border-bottom: 100px;
 }
 
 .color-blue {
@@ -114,7 +118,7 @@
   font-weight: 400;
   line-height: 28px;
   margin-right: auto;
-  padding-top: 30px;
+  padding-top: 15px;
   background-color: #ffff;
 }
 
@@ -350,9 +354,16 @@
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 24px;
   color: #396df2;
+  cursor: pointer;
+}
+
+.see-btn:hover {
+  background-color: #6070ff;
+  color: #fff;
+  border: 1px solid #fff;
 }
 
 .see-btn2 {
@@ -372,6 +383,12 @@
   line-height: 24px;
   color: #396df2;
   margin: 15px 8%;
+}
+
+.see-btn2:hover {
+  background-color: #6070ff;
+  color: #fff;
+  border: 1px solid #fff;
 }
 
 .languages {
@@ -473,4 +490,77 @@
   background: rgba(223, 225, 230, 1);
   margin: 0 8%;
   margin-bottom: 10px;
+}
+
+#form-section {
+  background-color: #fff;
+}
+
+#contact-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 90px 24px 45px 24px;
+  background-image: url(./vectors/form-shapes.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #6070ff;
+  border-top-left-radius: 80px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+}
+
+#contact-container h2 {
+  color: #fff;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+  height: 80px;
+  background-color: #6070ff;
+}
+
+#contactInGrid {
+  list-style: none;
+}
+
+#contact-container p {
+  color: #ebebff;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  background-color: #6070ff;
+}
+
+#form input,
+#form textarea {
+  width: 91%;
+  height: 154px;
+  border-radius: 8px;
+  border: none;
+  background-color: white;
+}
+
+#form input {
+  width: 91%;
+  height: 48px;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+}
+
+.form2 {
+  background-color: #6070ff;
+}
+
+.input-div {
+  background-color: #6070ff;
+  list-style: none;
 }
