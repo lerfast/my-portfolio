@@ -13,6 +13,15 @@
 
 .page-background {
   background-color: #ffff;
+  font-style: normal;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  text-align: left;
+  margin-top: 5.625rem;
+  margin-bottom: 0.625rem;
+  color: #172b4d;
+  background: transparent;
 }
 
 .page-background2 {
@@ -36,17 +45,20 @@
 }
 
 .fonts {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .header {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   width: 85%;
   margin: 0 auto;
   height: 48px;
   background-color: #ffff;
+  padding: 3% 6.3% 0 6.2%;
+  box-sizing: border-box;
+  background: transparent;
 }
 
 .my-logo {
@@ -62,6 +74,18 @@
   margin-top: 15px;
   background-color: #fff;
   border: none;
+  height: 20px;
+  width: 62px;
+  left: 12px;
+  top: 10px;
+  border-radius: nullpx;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #344563;
+  cursor: pointer;
 }
 
 .button2 {
@@ -90,7 +114,7 @@
 
 .color-blue {
   text-align: justify;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -102,13 +126,15 @@
 }
 
 .p-headline {
-  text-align: justify;
+  font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
   color: #344563;
-  padding-top: 20px;
-  background-color: #ffff;
+  text-align: left;
+  margin-bottom: 1.125rem;
+  margin-top: 1.625rem;
+  background: transparent;
 }
 
 .linkheadline {
@@ -123,20 +149,26 @@
 }
 
 .headline {
-  font-family: 'Inter', sans-serif;
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
   font-size: 20px;
-  padding-top: 126px;
+  padding: 0 6.2%;
   margin: 0 8%;
   background-color: #ffff;
+  background-size: cover;
+  background: transparent;
 }
 
 .social-icons-set {
-  list-style: none;
   display: flex;
-  justify-content: flex-start;
-  margin: 0 auto;
-  padding-top: 20px;
+  flex-direction: row;
+  list-style: none;
+  justify-content: left;
+  gap: 1.25rem;
+  margin-top: 1.563rem;
   background-color: #ffff;
+  background: transparent;
 }
 
 .li {
@@ -193,7 +225,7 @@
 }
 
 .card-title {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 32px;
   line-height: 44px;
   font-weight: 700;
@@ -231,7 +263,7 @@
   padding: 8px 0;
   width: 55px;
   height: 32px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -245,7 +277,7 @@
   flex-direction: row;
   align-items: center;
   padding: 8px 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -255,7 +287,7 @@
 }
 
 .card-description {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -290,7 +322,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -311,7 +343,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -332,7 +364,7 @@
   flex: none;
   order: 0;
   flex-grow: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
@@ -351,7 +383,7 @@
   padding: 12px;
   background: #fff;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -376,7 +408,7 @@
   padding: 1px;
   background: #fff;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -396,7 +428,7 @@
   height: 24px;
   left: 12px;
   right: 78px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -430,7 +462,7 @@
 }
 
 .container-style {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -449,7 +481,7 @@
 }
 
 .containerHTML-style {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -468,7 +500,7 @@
 }
 
 .containerCSS-style {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -507,7 +539,7 @@
   background-size: contain;
   background-color: #6070ff;
   border-top-left-radius: 80px;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
 }
 
@@ -563,4 +595,66 @@
 .input-div {
   background-color: #6070ff;
   list-style: none;
+}
+
+.nav-desktop {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .nav-desktop {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #344563;
+    gap: 3%;
+    background-color: #ffff;
+  }
+
+  .hamburguer-hidden {
+    display: none;
+  }
+
+  .nav-desktop a {
+    background-color: #ffff;
+    text-decoration: none;
+  }
+
+  .card-desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 700px;
+  }
+
+  .grid-container-desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin: 0 24px;
+    width: 100%;
+    gap: 24px;
+    border: 1px solid #dfe1e6;
+    border-radius: 16px;
+    width: auto;
+    background-color: #ffff;
+  }
+  .container2-desktop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .card-img {
+    width: 100%;
+  }
+  .card-img2 {
+    background-color: #ffff;
+  }
 }
