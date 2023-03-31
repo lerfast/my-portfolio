@@ -214,6 +214,10 @@
   background: transparent;
 }
 
+.social-icons-set li:hover {
+  transform: scale(1.5);
+}
+
 .li {
   background-color: #ffff;
 }
@@ -812,6 +816,10 @@
   margin: 0;
   background-color: #ffff;
   gap: 1rem;
+}
+
+.social li:hover {
+  transform: scale(1.5);
 }
 
 .contact-info {
