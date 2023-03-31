@@ -247,7 +247,6 @@
 .grid-container {
   display: flex;
   flex-direction: column;
-
   max-width: 100%;
   gap: 24px;
   border: 1px solid #dfe1e6;
@@ -808,7 +807,6 @@
 
 .social {
   display: flex;
-
   list-style: none;
   padding: 0;
   margin: 0;
@@ -866,8 +864,6 @@
     background: #ffff;
     position: unset;
   }
-  .about-p-desktop {
-  }
 
   .about-p-desktop p {
     background-color: #ffff;
@@ -894,7 +890,6 @@
 
   .about-desktop2 {
     flex-direction: row;
-
     justify-content: flex-start;
     gap: 30px;
     padding-inline: 143px;
@@ -958,7 +953,7 @@
   }
 
   .p-about-background {
-    padding: 0px;
+    padding: 0;
   }
 
   .card-img {
@@ -1036,6 +1031,7 @@
   .page-background2 {
     background-size: cover;
   }
+
   .works-container {
     margin: 20px;
     display: flex;
