@@ -29,6 +29,8 @@
   border-bottom-left-radius: 71px;
   border-bottom: 100px;
   height: 700px;
+  background-size: cover;
+  background-image: url(./vectors/header-shapes\ mobile2.png);
 }
 
 .a {
@@ -59,6 +61,7 @@
   margin: 10px 0;
   text-decoration: none;
   background-color: #fff;
+  width: 162px;
 }
 
 .see:hover {
@@ -82,8 +85,8 @@
   justify-content: space-between;
   width: 85%;
   margin: 0 auto;
-  height: 48px;
-  background-color: #ffff;
+  height: 25px;
+  background-color: transparent;
   padding: 3% 6.3% 0 6.2%;
   box-sizing: border-box;
 }
@@ -147,10 +150,9 @@
 }
 
 .main {
-  background-image: url(./vectors/header-shapes\ mobile2.png);
   background-repeat: no-repeat;
   background-size: 100%;
-  background-color: #ffff;
+  background-color: transparent;
   border: 1px solid #ffff;
   border-bottom-left-radius: 33px;
   border-bottom: 100px;
@@ -199,8 +201,7 @@
   font-size: 20px;
   padding: 0 6.2%;
   margin: 0 8%;
-  background-color: #ffff;
-  background-size: cover;
+  background-color: transparent;
 }
 
 .social-icons-set {
@@ -246,7 +247,7 @@
 .grid-container {
   display: flex;
   flex-direction: column;
-  margin: 0 24px;
+
   max-width: 100%;
   gap: 24px;
   border: 1px solid #dfe1e6;
@@ -793,6 +794,10 @@
   height: 165px;
 }
 
+.about-p p {
+  background-color: #ffff;
+}
+
 .about-background2 {
   background-color: #ffff;
 }
@@ -803,11 +808,12 @@
 
 .social {
   display: flex;
-  justify-content: space-between;
+
   list-style: none;
   padding: 0;
   margin: 0;
   background-color: #ffff;
+  gap: 1rem;
 }
 
 .contact-info {
@@ -856,19 +862,16 @@
     background-color: #ffff;
   }
 
-  .about-p {
-    height: 10px;
-    margin-top: -147px;
+  .about-desktop2-p {
+    background: #ffff;
+    position: unset;
+  }
+  .about-p-desktop {
+  }
+
+  .about-p-desktop p {
     background-color: #ffff;
-  }
-
-  .about-h1 {
-    height: 3px;
-  }
-
-  .position {
-    height: 263px;
-    margin-top: 320px;
+    margin-left: 10px;
   }
 
   .contact-info {
@@ -877,8 +880,7 @@
     background-color: #ffff;
   }
 
-  .contact {
-    position: static;
+  .contact2 {
     background-color: #ffff;
   }
 
@@ -890,9 +892,9 @@
     width: 35%;
   }
 
-  .about {
+  .about-desktop2 {
     flex-direction: row;
-    align-items: center;
+
     justify-content: flex-start;
     gap: 30px;
     padding-inline: 143px;
@@ -905,7 +907,7 @@
   }
 
   .form-section {
-    background-image: url("./vectors/contact\ form\ background\ shapes@2x.png");
+    background-image: url(./vectors/contact\ form\ background\ shapes.svg);
     background-size: 90%;
     background-repeat: no-repeat;
     background-position: center;
@@ -922,10 +924,6 @@
 
   .hamburguer-hidden {
     display: none;
-  }
-
-  .quarter-width {
-    width: 32%;
   }
 
   .nav-desktop a {
@@ -945,7 +943,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 0 562px;
+    margin: 0 382px;
     gap: 24px;
     border: 1px solid #dfe1e6;
     border-radius: 16px;
@@ -960,8 +958,7 @@
   }
 
   .p-about-background {
-    background-color: #ffff;
-    margin-left: 10%;
+    padding: 0px;
   }
 
   .card-img {
@@ -1020,13 +1017,38 @@
     grid-template-rows: repeat (2, 1fr);
   }
 
-  .title {
-    position: static;
+  .title-desktop {
     width: 60%;
     background-color: #ffff;
+    margin-left: 132px;
+    margin-top: 39px;
   }
 
   .align-center {
     margin: 0 auto;
+  }
+
+  .about-h1-desktop {
+    margin-left: 10px;
+    height: 10px;
+  }
+
+  .page-background2 {
+    background-size: cover;
+  }
+  .works-container {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-section p {
+    margin-left: -263px;
+    margin-right: -307px;
+  }
+
+  .form-section h1 {
+    margin-left: -263px;
+    margin-right: -307px;
   }
 }
