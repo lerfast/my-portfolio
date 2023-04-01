@@ -32,9 +32,6 @@
   background-size: cover;
 }
 
-.background-image {
-}
-
 .a {
   background-color: #ffff;
 }
@@ -866,6 +863,7 @@
   .main {
     background-image: none;
   }
+
   .about-desktop2-p {
     background: #ffff;
     position: unset;
@@ -945,6 +943,7 @@
     margin-left: 15%;
     margin-right: 15%;
   }
+
   .page-background2-desktop {
     background-image: url(./vectors/Header\ bg.svg);
   }
