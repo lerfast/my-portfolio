@@ -30,7 +30,9 @@
   border-bottom: 100px;
   height: 700px;
   background-size: cover;
-  background-image: url(./vectors/header-shapes\ mobile2.png);
+}
+
+.background-image {
 }
 
 .a {
@@ -62,12 +64,6 @@
   text-decoration: none;
   background-color: #fff;
   width: 162px;
-}
-
-.see:hover {
-  color: #fff;
-  background-color: #6071ff;
-  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
 .see:active {
@@ -156,6 +152,7 @@
   border: 1px solid #ffff;
   border-bottom-left-radius: 33px;
   border-bottom: 100px;
+  background-image: url(./vectors/header-shapes\ mobile2.png);
 }
 
 .color-blue {
@@ -242,6 +239,7 @@
   align-items: center;
   gap: 80px;
   padding: 120px 0;
+  margin: 0 8%;
 }
 
 .grid-container {
@@ -860,6 +858,14 @@
     background-color: #ffff;
   }
 
+  .main-desktop {
+    background-image: url(./vectors/Header\ bg.svg);
+    background-repeat: no-repeat;
+  }
+
+  .main {
+    background-image: none;
+  }
   .about-desktop2-p {
     background: #ffff;
     position: unset;
@@ -903,7 +909,7 @@
 
   .form-section {
     background-image: url(./vectors/contact\ form\ background\ shapes.svg);
-    background-size: 90%;
+    background-size: 1199px;
     background-repeat: no-repeat;
     background-position: center;
     padding-inline: 350px;
@@ -924,6 +930,7 @@
   .nav-desktop a {
     background-color: #ffff;
     text-decoration: none;
+    color: #344563;
   }
 
   .card-desktop {
@@ -932,6 +939,14 @@
     justify-content: space-between;
     width: 924px;
     background-color: #ffff;
+  }
+
+  .headline-desktop {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .page-background2-desktop {
+    background-image: url(./vectors/Header\ bg.svg);
   }
 
   .grid-container-desktop {
@@ -1039,8 +1054,8 @@
   }
 
   .form-section p {
-    margin-left: -263px;
-    margin-right: -307px;
+    margin-left: 23%;
+    margin-right: 23%;
   }
 
   .form-section h1 {
