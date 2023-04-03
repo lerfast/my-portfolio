@@ -208,10 +208,6 @@
   background: transparent;
 }
 
-.social-icons-set li:hover {
-  transform: scale(1.5);
-}
-
 .li {
   background-color: #ffff;
 }
@@ -675,6 +671,10 @@
   background-color: #f7f7f9;
   padding: 10px 20px;
   border-radius: 8px;
+}
+
+.social-icons-set li:hover {
+  transform: scale(1.5);
 }
 
 .form-section {
